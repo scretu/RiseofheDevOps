@@ -4,7 +4,7 @@
 #
 # Copyright:: 2017, The Authors, All Rights Reserved.
 
-package 'apache' do
+package 'apache2' do
   action :upgrade
 end
 
