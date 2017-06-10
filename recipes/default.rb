@@ -7,3 +7,8 @@
 package 'apache' do
   action :upgrade
 end
+
+service 'apache2' do
+  supports status: true
+  action [:enable, :start]
+end
